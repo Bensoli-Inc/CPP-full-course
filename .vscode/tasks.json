@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "cppbuild",
-			"label": "C/C++: g++.exe build active file",
+			"label": "Vuild with g++",
 			"command": "C:\\winlibs-x86_64-posix-seh-gcc-14.1.0-llvm-18.1.8-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe",
 			"args": [
 				"-fdiagnostics-color=always",
