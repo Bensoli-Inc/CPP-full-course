@@ -4,7 +4,8 @@
 int main(){
 
 	//Declare array
-    char message [5]  {"Hello"};
+    char message []  {"Hello"};
+
     int data[5] {1,2,3,3,3};
 
     std::cout << "data : " << data << std::endl;
