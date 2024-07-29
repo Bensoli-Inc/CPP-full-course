@@ -11,7 +11,7 @@ int main() {
     std::cout<< "num2 :" << num2 <<std::endl;
 
     std::cout << "................." << std::endl;
-    std::cout << "comparing with logical operators" << std::endl;
+    std::cout << "comparing with comparison operators" << std::endl;
 
     std::cout << std::boolalpha; //make bool show up as true/false instead of 1/0
 
