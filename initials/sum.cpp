@@ -7,7 +7,7 @@ int addNumbers (int num1, int num2) {
 }
 
 int main() {
-        int total = addNumbers(4, 6);
+        int total = addNumbers(4, 7);
     std::cout << total << std::endl;
     return 0;
 }
