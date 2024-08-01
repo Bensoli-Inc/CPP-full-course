@@ -16,7 +16,7 @@ int main(){
 
 
    //Case 2 : deleted pointer
-   /*
+   
    std::cout << std::endl;
    std::cout << "Case 2 : Deleted pointer" << std::endl;
    int * p_number1 {new int{67}};
@@ -26,11 +26,11 @@ int main(){
    delete p_number1;
 		
    std::cout << "*p_number1(after delete) : " << *p_number1 << std::endl;
-   */
+   
 
 
 	//Case 3 : Multiple pointers pointing to same address
-    /*
+    
 	std::cout << std::endl;
 	std::cout << "Case 3 : Multiple pointers pointing to same address : " << std::endl;
 	
@@ -46,11 +46,11 @@ int main(){
     //p_number4 points to deleted memory. Dereferncing it will lead to
 	//undefined behaviour : Crash/ garbage or whatever
     std::cout<< "p_number4(after deleting p_number3) - " << p_number4 << " - " << *p_number4 << std::endl;
-    */
+    
 
 
     //Solution1 : Initialize your pointers immediately upon declaration
-    /*
+    
 	std::cout << std::endl;
 	std::cout << "Solution 1 : " << std::endl;
     int *p_number5{nullptr};
@@ -63,13 +63,13 @@ int main(){
 	}else{
         std::cout << "Invalid address" << std::endl;
     }
-    */
+    
 
 
 	//Solution 2 : 
     //Right after you call delete on a pointer, remember to reset
 	//the pointer to nullptr to make it CLEAR it doesn't point anywere
-    /*
+    
 	std::cout << std::endl;
 	std::cout << "Solution 2 : " << std::endl;
     int *p_number7{new int{82}};
@@ -86,14 +86,14 @@ int main(){
 	}else{
         std::cout << "Invalid memory access!" << std::endl;
     }
-    */
+    
 
 
 	//Solution 3 
 	//For multiple pointers pointing to the same address ,  Make sure there is
 	//one clear pointer (master pointer) that owns the memory ( responsible for releasing when
     // necessary) , other pointers should only be able to dereference when the master pointer is valid
-    /*
+    
 	std::cout << std::endl;
 	std::cout << "Solution 3 : " << std::endl;
     int * p_number8 {new int{382}};// Let's say p_number8 is the master pointer
@@ -114,13 +114,7 @@ int main(){
     }else{
         std::cerr << "WARNING : Trying to use an invalid pointer" << std::endl;
     }
-    */
-    
-
-
-
-
-
+     
 
 
 
