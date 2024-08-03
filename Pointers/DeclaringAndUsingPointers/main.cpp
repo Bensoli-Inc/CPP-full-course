@@ -8,7 +8,7 @@ int main(){
     int* p_number {}; // Will initialize with nullptr
     double*  p_fractional_number{};
 
-    //Explicitly initialize with nullptr
+    //Explicitly initializee with nullptr
     int* p_number1{nullptr};
     int* p_fractional_number1{nullptr};
 
